@@ -12,7 +12,7 @@ public class Lesson3Main {
 
         // Reference example
 
-        Object o = new MyClass();
+        Object o = new MyClass().getClass();
         MyClass m = (MyClass) o;
 
         System.out.println(sorry.equals(new MyClass(2,2.2)));
